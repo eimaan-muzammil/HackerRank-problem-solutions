@@ -6,8 +6,6 @@ import random
 import re
 import sys
 
-
-
 if __name__ == '__main__':
     n = int(input().strip())
     i = 1
@@ -15,3 +13,4 @@ if __name__ == '__main__':
         
          print(f'{n} x {i} = {n*i}')  
     i+=1
+
