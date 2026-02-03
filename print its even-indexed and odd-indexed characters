@@ -1,0 +1,13 @@
+t = int(input())
+
+for i in range(t):
+    # Read the string for the current test case
+    s = input()
+    
+    # s[::2] gets characters from index 0, 2, 4... (Even)
+    # s[1::2] gets characters from index 1, 3, 5... (Odd)
+    even_chars = s[::2]
+    odd_chars = s[1::2]
+    
+    # Print them separated by a space
+    print(f"{even_chars} {odd_chars}")
